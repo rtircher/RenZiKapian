@@ -1,0 +1,9 @@
+#!/bin/bash
+
+[[ -s "/usr/local/rvm/scripts/rvm" ]] && . "/usr/local/rvm/scripts/rvm"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+ruby_version=`cat .ruby-version`
+gemset=`cat .ruby-gemset`
+
+rvm use "$ruby_version@$gemset"
