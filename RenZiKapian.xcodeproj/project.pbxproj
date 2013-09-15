@@ -17,7 +17,6 @@
 		7C22B4EB17C51DF200AF836E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C22B4EA17C51DF200AF836E /* Default.png */; };
 		7C22B4ED17C51DF200AF836E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C22B4EC17C51DF200AF836E /* Default@2x.png */; };
 		7C22B4EF17C51DF200AF836E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C22B4EE17C51DF200AF836E /* Default-568h@2x.png */; };
-		7C22B4F217C51DF200AF836E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C22B4F017C51DF200AF836E /* MainStoryboard.storyboard */; };
 		7C22B4F517C51DF200AF836E /* RenZiKapian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C22B4F317C51DF200AF836E /* RenZiKapian.xcdatamodeld */; };
 		7C22B4F817C51DF200AF836E /* RZKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C22B4F717C51DF200AF836E /* RZKMasterViewController.m */; };
 		7C22B4FB17C51DF200AF836E /* RZKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C22B4FA17C51DF200AF836E /* RZKDetailViewController.m */; };
@@ -38,7 +37,6 @@
 		7C22B4EA17C51DF200AF836E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7C22B4EC17C51DF200AF836E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7C22B4EE17C51DF200AF836E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		7C22B4F117C51DF200AF836E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7C22B4F417C51DF200AF836E /* RenZiKapian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RenZiKapian.xcdatamodel; sourceTree = "<group>"; };
 		7C22B4F617C51DF200AF836E /* RZKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZKMasterViewController.h; sourceTree = "<group>"; };
 		7C22B4F717C51DF200AF836E /* RZKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZKMasterViewController.m; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 			children = (
 				7C22B4E717C51DF200AF836E /* RZKAppDelegate.h */,
 				7C22B4E817C51DF200AF836E /* RZKAppDelegate.m */,
-				7C22B4F017C51DF200AF836E /* MainStoryboard.storyboard */,
 				7C22B4F617C51DF200AF836E /* RZKMasterViewController.h */,
 				7C22B4F717C51DF200AF836E /* RZKMasterViewController.m */,
 				7C22B4F917C51DF200AF836E /* RZKDetailViewController.h */,
@@ -175,7 +172,6 @@
 				7C22B4EB17C51DF200AF836E /* Default.png in Resources */,
 				7C22B4ED17C51DF200AF836E /* Default@2x.png in Resources */,
 				7C22B4EF17C51DF200AF836E /* Default-568h@2x.png in Resources */,
-				7C22B4F217C51DF200AF836E /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,14 +199,6 @@
 				7C22B4E217C51DF200AF836E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7C22B4F017C51DF200AF836E /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C22B4F117C51DF200AF836E /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -313,6 +301,7 @@
 				7C22B50017C51DF200AF836E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
